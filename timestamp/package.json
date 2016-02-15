@@ -1,0 +1,26 @@
+{
+  "name": "timestamp",
+  "version": "1.0.0",
+  "description": "Takes a unix or normail date query from url and outputs a json file with the unix time and normalized date",
+  "main": "timestamp.js",
+  "scripts": {
+    "test": "node timestamp.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikehow1984/mybasejump.git"
+  },
+  "keywords": [
+    "timestamp",
+    "json",
+    "unix",
+    "time",
+    "date"
+  ],
+  "author": "mikehow1005@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikehow1984/mybasejump/issues"
+  },
+  "homepage": "https://github.com/mikehow1984/mybasejump#readme"
+}
