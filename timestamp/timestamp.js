@@ -2,7 +2,7 @@ var server = require('express');
 var app = server();
 var path = require('path');
 
-app.get('/', (req, res) => {
+app.get('../public', (req, res) => {
   var file = path.join(__dirname, 'index.html');
   res.sendFile(file, (err) => {
     if(err){
@@ -24,7 +24,7 @@ app.get('/:query' , (req,res) => {
 	};
 	
 	
-	if ( Object.prototype.toString.call(d) === "[object Date]" ) {
+	if (Object.prototype.toString.call(d) === "[object Date]") {
   	// it is a date
   		if (isNaN(d.getTime())){  // d.valueOf() could also work
     	// date is not valid
